@@ -1,0 +1,187 @@
+/* Main background image */
+body.first-class {
+    background-image: url(images/pic01.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Inner class (no styles currently) */
+.inner {
+    /* background: red; */
+}
+
+/* Main menu section */
+section.menu-kryesore {
+    background: transparent;
+}
+
+section.menu-kryesore ul {
+    list-style: none;
+    display: flex;
+}
+
+section.menu-kryesore ul li {
+    background: #aa3134;
+    width: 30%;
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    margin: 0 3px;
+}
+
+section.menu-kryesore ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section.menu-kryesore ul li:hover {
+    background: #c13539;
+}
+
+/* Main menu section with class .body-main-manu */
+.body-main-manu {
+    text-align: center;
+    background: rgba(247, 234, 233, 0.47);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 4%;
+}
+
+/* Actions list */
+ul.actions {
+    background: rgba(118, 8, 11, 0.6);
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 9%;
+    padding: 17px;
+    border: 3px solid rgb(133, 29, 32);
+}
+
+ul.actions li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul.actions li {
+    margin: 0 auto;
+}
+
+/* Styles for paragraphs within .body-main-manu */
+.body-main-manu p {
+    font-size: 20px;
+}
+
+/* Footer styles */
+footer#footer {
+    position: fixed;
+    bottom: 0;
+    background: #571b1d;
+    color: white;
+    width: 110%;
+    margin-left: -10%;
+    text-align: center;
+    height: 56px;
+}
+
+/* Book unit image styles */
+.book-unit img {
+    width: 238px;
+}
+
+/* Book section styles */
+section.section-book {
+    background: #e8e7e7;
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 1%;
+    height: 739px;
+    overflow: hidden;
+    padding: 29px 4px;
+    margin-top: 14px;
+    color: black;
+}
+
+/* Button styles */
+button.buton-bli {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: transparent;
+    border: 2px solid #d12f31;
+    color: #b92328;
+    font-size: 20px;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 3em;
+}
+
+button.buton-bli:hover {
+    background: #d28e8e54;
+}
+
+/* Price span styles */
+span.price {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Active list item styles */
+section.menu-kryesore ul li.active {
+    border-bottom: 5px solid #f1464b;
+}
+
+/* Dark background body styles */
+body.blac-backg {
+    background: #000;
+    color: white;
+}
+
+/* Form section styles */
+.class-form section {
+    width: 67%;
+    display: table-cell;
+    padding: 3%;
+}
+
+/* Form input and textarea styles */
+.form input,
+.form textarea {
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 0.25em;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 1em;
+    text-decoration: none;
+    width: 92%;
+    margin: 11px 0;
+}
+
+/* Contact list styles */
+ul.contact {
+    list-style: none;
+}
+
+/* Contact link styles */
+ul.contact a {
+    color: #00BCD4;
+}
+
+/* Contact text styles */
+.text-contact {
+    padding: 0 8%;
+    text-align: center;
+    color: #bbb;
+    font-style: italic;
+}
